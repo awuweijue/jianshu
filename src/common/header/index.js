@@ -1,10 +1,17 @@
 import * as React from 'react'
 
+import {HeaderWrapper ,Logo ,Nav} from './styled'
+
+
+
 class Header extends React.Component {
     render(){
-        return <header>
-            header
-        </header>
+        return <HeaderWrapper>
+            <Logo></Logo>
+            <Nav>
+
+            </Nav>
+        </HeaderWrapper>
     }
 }
 
