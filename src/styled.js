@@ -43,6 +43,9 @@ export const GlobalStyled = createGlobalStyle `
     table {
     \tborder-collapse: collapse;
     \tborder-spacing: 0;
+    a{
+      color:black;
+    }
 }
 
 `
